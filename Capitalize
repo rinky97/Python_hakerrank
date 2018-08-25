@@ -1,0 +1,10 @@
+ input_list = s.split(" ")
+    input_list = list(input_list)
+    input_list2 = list(s)
+    if len(input_list2) > 0 and len(input_list2)<1000:
+         
+        s = len(input_list[0])
+        input_list2[0] = input_list2[0].upper()
+        input_list2[s+1] = input_list2[s+1].upper()
+        return "".join(input_list2)
+    
